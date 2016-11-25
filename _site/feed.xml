@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ebin Issac</title>
+    <description>&lt;h3&gt;Hello, world!&lt;/h3&gt;&lt;h1&gt;Ebin Issac&lt;/h1&gt;&lt;h3&gt;An IT guy from India who lives in Singapore!&lt;/h3&gt;</description>
+    <link>http://ebinpissac.github.io/</link>
+    <atom:link href="http://ebinpissac.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 26 Nov 2016 06:33:04 +0800</pubDate>
+    <lastBuildDate>Sat, 26 Nov 2016 06:33:04 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Testing out some stuff!</title>
+        <description>&lt;p&gt;Testing out if this works as expected or not
+Testing malayalam as well.
+മലയാളം ടെസ്റ്റ് ചെയ്യട്ടെ&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Nov 2016 06:30:43 +0800</pubDate>
+        <link>http://ebinpissac.github.io/personal/2016/11/26/testing-how-to-post.html</link>
+        <guid isPermaLink="true">http://ebinpissac.github.io/personal/2016/11/26/testing-how-to-post.html</guid>
+        
+        
+        <category>personal</category>
+        
+      </item>
+    
+      <item>
+        <title>This is my first post!</title>
+        <description>&lt;p&gt;Well I think I am finally done with my website. It took me a long time to decide on what platform. Gotta stick with jekyll and github pages for now.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 26 Nov 2016 05:48:43 +0800</pubDate>
+        <link>http://ebinpissac.github.io/personal/2016/11/26/finally-get-this-site-done.html</link>
+        <guid isPermaLink="true">http://ebinpissac.github.io/personal/2016/11/26/finally-get-this-site-done.html</guid>
+        
+        
+        <category>personal</category>
+        
+      </item>
+    
+  </channel>
+</rss>
