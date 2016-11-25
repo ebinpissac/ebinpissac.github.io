@@ -31,7 +31,7 @@ Work Stuff
           Company: Micron Technology
           title:  Systems Technologist
           date:   2016-Present
-        ---
+          ---
         </pre>
         </div>
 
@@ -49,12 +49,12 @@ Work Stuff
           School: University of Adelaide
           Course: Bachelor of Computer Science
           date:   2015-Present
-       ---
-	  ---
+          ---
+          ---
           School: Republic Polytechnic
           Course: Diploma in Micro and Nanotechnology
           date:   2011-2014
- </span>         ---
+          ---
         </pre>
         </div>
 
