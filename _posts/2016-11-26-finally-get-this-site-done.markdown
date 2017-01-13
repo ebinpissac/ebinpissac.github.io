@@ -9,3 +9,5 @@ author: "Ebin"
 <p>&nbsp;</p>
 <p>This is just a sample post for me to test its functionality<img src="https://html-online.com/editor/tinymce/plugins/emoticons/img/smiley-wink.gif" alt="wink" /></p>
 
+<a href="http://www.imageno.com/npcg2ngyh8h3pic.html" target="_blank"><img src="http://www.imageno.com/thumbs/20170113/npcg2ngyh8h3.jpg" border="0" alt=""></a>
+
