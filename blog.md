@@ -39,4 +39,4 @@ permalink: /blog/
   </div>
   {% endfor %}
   </div>
-</section>
+
