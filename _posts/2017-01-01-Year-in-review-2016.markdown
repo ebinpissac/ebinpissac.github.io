@@ -15,13 +15,13 @@ author: "Ebin"
 <li>Build this website</li>
 </ul>
 <p>Really happy to say that I managed to do all these. Since started hitting the gym, I gained almost 9 kg of weight. I reached 60kg from 51kg in 9 months, which is remarkable considering the fact that I barely increased any weight since I came to Singapore. I also completed the Red Hat system adminstration course, and got the certificate, <a href="https://www.redhat.com/rhtapps/certification/verify/?certId=160-274-445&amp;isSearch=False&amp;verify=Verify">RHCE and RHCSA</a>. Although I couldn't take LFCS exam in 2016, I will take it in first week of 2017. Finally, building this website was one of my long time dreams, and finally it became true. I am not sure how often I update this, but nevertheless, a website is a website.</p>
-<p>For 2017, I have some targets. These are a bit more tougher than what I had in 2016, but if I can manage to get them done, that is going to be great.</p>
+<p>For 2017, I have some targets. These are a bit more tougher than what I had in 2016, but if I can manage to get them done, that is going to be great.[Hiding them for now]</p>
 <ul>
-<li>Reach 65kgs</li>
-<li>Learn to ride bike properly and get Singapore license</li>
-<li>Buy a bike</li>
-<li>Complete my degree</li>
-<li>[Bonus: Get a job with $4000 salary]</li>
+<li>------------</li>
+<li>------------</li>
+<li>------------</li>
+<li>------------</li>
+<li>------------</li>
 </ul>
 <p>Let us see how it goes.</p>
 <p>&nbsp;</p>

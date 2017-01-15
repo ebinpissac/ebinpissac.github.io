@@ -2,22 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ebin Issac</title>
-    <description>&lt;h3&gt;Hello, world!&lt;/h3&gt;&lt;h1&gt;Ebin Issac&lt;/h1&gt;&lt;h3&gt;An IT guy from India who lives in Singapore!&lt;/h3&gt;</description>
+    <description>&lt;h3&gt;Hello, world!&lt;/h3&gt;&lt;h1&gt;Ebin Issac&lt;/h1&gt;&lt;h3&gt;A Super User wannabe!&lt;/h3&gt;</description>
     <link>http://ebinpissac.github.io/</link>
     <atom:link href="http://ebinpissac.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Nov 2016 06:43:17 +0800</pubDate>
-    <lastBuildDate>Sat, 26 Nov 2016 06:43:17 +0800</lastBuildDate>
+    <pubDate>Sun, 15 Jan 2017 22:51:32 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Jan 2017 22:51:32 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Testing out some stuff!</title>
-        <description>&lt;p&gt;Testing out if this works as expected or not
-Testing malayalam as well.
-മലയാളം ടെസ്റ്റ് ചെയ്യട്ടെ&lt;/p&gt;
+        <title>How to use your Raspberry pi to download movies automatically</title>
+        <description>&lt;p&gt;What we will be using:
+Raspberry pi 3 model b with Raspbian Jessie installed.
+Official raspberry pi 3 PSU as third party PSU’s may not provide enough power
+External HDD
+USB fan or heatsink (Recommended, not necessary)
+&lt;img src=&quot;https://qebarq-bn1305.files.1drv.com/y3m5TwxP_aHuBXCTbVtLDvRIYJjI0bt-K0k0drRz22u46AVz8jc7hBKooNSrxsCRGKGgbM2vBPI31pz5rmb-OFxSggkDhhABq8ccZXnWPwwDVPTSHlBNUmq9JW2Req3dtDPlK1-qo21jz5Up476RXfMIaQejv4Umpic-5WSqIsePEI?width=1116&amp;amp;height=800&amp;amp;cropmode=none&quot; width=&quot;1116&quot; height=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Assumptions:
+You have vnc / physical access with GUI to your pi
+You have a user named pi with sudo access (this available by default)
+You know the password of user pi
+Note: We will be doing most of the configurations in a terminal.&lt;/p&gt;
+
+&lt;p&gt;1) Install and enable apache webserver
+This will help to access the contents over a webserver. Install it by typing
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;div class=&quot;example&quot;&gt;
+        &lt;div class=&quot;highlight&quot;&gt;
+        &lt;pre&gt;
+      sudo apt-get install apache2
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Sat, 26 Nov 2016 06:30:43 +0800</pubDate>
-        <link>http://ebinpissac.github.io/personal/2016/11/26/testing-how-to-post.html</link>
-        <guid isPermaLink="true">http://ebinpissac.github.io/personal/2016/11/26/testing-how-to-post.html</guid>
+        <pubDate>Sun, 15 Jan 2017 22:11:43 +0800</pubDate>
+        <link>http://ebinpissac.github.io/technology/2017/01/15/How-to-use-your-Raspberry-Pi-to-download-movies-automatically.html</link>
+        <guid isPermaLink="true">http://ebinpissac.github.io/technology/2017/01/15/How-to-use-your-Raspberry-Pi-to-download-movies-automatically.html</guid>
+        
+        
+        <category>technology</category>
+        
+      </item>
+    
+      <item>
+        <title>Year in review - 2016</title>
+        <description>&lt;p&gt;Its the new year. 2015 was really a bad year for me. I was hospitalised twice, had to undergo surgery, made some bad decisions, ahh..it was terrible.&lt;/p&gt;
+&lt;p&gt;But 2016 was probably the best year I had in years. The year started with a job in Micron, which is not really a bad job. At least I dont mind going there unlike my previous jobs. I learned quite few things, and its where I realised that my field is System Administration, not programming.&lt;/p&gt;
+&lt;p&gt;When the year started, I had some targets to do, such as :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start hitting the gym&lt;/li&gt;
+&lt;li&gt;Gain some weight&lt;/li&gt;
+&lt;li&gt;Complete System Admin course and get the certification&lt;/li&gt;
+&lt;li&gt;Build this website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Really happy to say that I managed to do all these. Since started hitting the gym, I gained almost 9 kg of weight. I reached 60kg from 51kg in 9 months, which is remarkable considering the fact that I barely increased any weight since I came to Singapore. I also completed the Red Hat system adminstration course, and got the certificate, &lt;a href=&quot;https://www.redhat.com/rhtapps/certification/verify/?certId=160-274-445&amp;amp;isSearch=False&amp;amp;verify=Verify&quot;&gt;RHCE and RHCSA&lt;/a&gt;. Although I couldn&#39;t take LFCS exam in 2016, I will take it in first week of 2017. Finally, building this website was one of my long time dreams, and finally it became true. I am not sure how often I update this, but nevertheless, a website is a website.&lt;/p&gt;
+&lt;p&gt;For 2017, I have some targets. These are a bit more tougher than what I had in 2016, but if I can manage to get them done, that is going to be great.[Hiding them for now]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;------------&lt;/li&gt;
+&lt;li&gt;------------&lt;/li&gt;
+&lt;li&gt;------------&lt;/li&gt;
+&lt;li&gt;------------&lt;/li&gt;
+&lt;li&gt;------------&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let us see how it goes.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Happy new year everyone :)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2017 01:30:43 +0800</pubDate>
+        <link>http://ebinpissac.github.io/personal/2017/01/01/Year-in-review-2016.html</link>
+        <guid isPermaLink="true">http://ebinpissac.github.io/personal/2017/01/01/Year-in-review-2016.html</guid>
         
         
         <category>personal</category>
@@ -26,8 +79,22 @@ Testing malayalam as well.
     
       <item>
         <title>This is my first post!</title>
-        <description>&lt;p&gt;Well I think I am finally done with my website. It took me a long time to decide on what platform. Gotta stick with jekyll and github pages for now.&lt;/p&gt;
+        <description>&lt;p&gt;Well I think I am finally done with my website. It took me a long time to decide on what platform, then on what theme, on what domain and so on. Gotta stick with jekyll and github pages for now, with this&amp;nbsp;&lt;a href=&quot;http://www.ebinissac.online&quot;&gt;ebinissac.online&lt;/a&gt; domain. My initial plan was to build the page using Wordpress, which is probably the most popular platform. Even though I am a technical guy, I really could not figure out on how to use it properly, and fed up really fast. What more, ditched it. Then I came across Weebly, which is really nice, and easy and beautiful. I even built a site in a way that I intended. Unfortunately, it was too expensive for me pay them for a site that I am not even sure whether I use it or not. I found more site builders like wix, google sites, ucoz etc etc. They were either expensive, or ugly, or slow. It was then I came to know about github pages. Since its just static, the page loading was quick, and it was FREE! What more, I decided to use it. The next confusion was to select the theme. After hours of research and tests, I choose &lt;a href=&quot;https://github.com/hemangsk/DevJournal&quot;&gt;DevJournal&lt;/a&gt;. Thanks to the developer. &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This is just a sample post for me to test its functionality&lt;img src=&quot;https://html-online.com/editor/tinymce/plugins/emoticons/img/smiley-wink.gif&quot; alt=&quot;wink&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;http://www.imageno.com/npcg2ngyh8h3pic.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.imageno.com/thumbs/20170113/npcg2ngyh8h3.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dipjia-bn1305.files.1drv.com/y3mfz1gx4SNN4-xRdl7mLHpBRvsv6ntXWtT0m_J-uK74Q3tsTAJI4NPew6IMio1FWowQH4SL0QOgnK59Lq3ROs-e48xwz12mgbw1VU-3g6U3dyUHJuiYqwU2LGsheZATapyBm2gXC1LsRuuUmc5bYqunq0h__P_J_DgaqtGMtK7I0g?width=1092&amp;amp;height=493&amp;amp;cropmode=none&quot; width=&quot;1092&quot; height=&quot;493&quot; /&gt;
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;div class=&quot;example&quot;&gt;
+        &lt;div class=&quot;highlight&quot;&gt;
+        &lt;pre&gt;
+      sudo apt-get install apache2
+&lt;/pre&gt;
+        &lt;/div&gt;
+
+&lt;/div&gt;
 </description>
         <pubDate>Sat, 26 Nov 2016 05:48:43 +0800</pubDate>
         <link>http://ebinpissac.github.io/personal/2016/11/26/finally-get-this-site-done.html</link>

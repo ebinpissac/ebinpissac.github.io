@@ -11,3 +11,12 @@ author: "Ebin"
 
 <a href="http://www.imageno.com/npcg2ngyh8h3pic.html" target="_blank"><img src="http://www.imageno.com/thumbs/20170113/npcg2ngyh8h3.jpg" border="0" alt=""></a>
 
+<img src="https://dipjia-bn1305.files.1drv.com/y3mfz1gx4SNN4-xRdl7mLHpBRvsv6ntXWtT0m_J-uK74Q3tsTAJI4NPew6IMio1FWowQH4SL0QOgnK59Lq3ROs-e48xwz12mgbw1VU-3g6U3dyUHJuiYqwU2LGsheZATapyBm2gXC1LsRuuUmc5bYqunq0h__P_J_DgaqtGMtK7I0g?width=1092&height=493&cropmode=none" width="1092" height="493" />
+</div>
+  <div class="example">
+        <div class="highlight">
+        <pre>
+      sudo apt-get install apache2
+</pre>
+        </div>
+
