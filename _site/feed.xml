@@ -5,8 +5,8 @@
     <description>&lt;h3&gt;Hello, world!&lt;/h3&gt;&lt;h1&gt;Ebin Issac&lt;/h1&gt;&lt;h3&gt;A Super User wannabe!&lt;/h3&gt;</description>
     <link>http://ebinpissac.github.io/</link>
     <atom:link href="http://ebinpissac.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Jan 2017 02:29:19 +0800</pubDate>
-    <lastBuildDate>Mon, 16 Jan 2017 02:29:19 +0800</lastBuildDate>
+    <pubDate>Mon, 16 Jan 2017 22:09:47 +0800</pubDate>
+    <lastBuildDate>Mon, 16 Jan 2017 22:09:47 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -56,9 +56,9 @@ sudo systemctl start apache2
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://earrcg-bn1305.files.1drv.com/y3m2x1N35pnRTTiHC2I8lH5evw3YFErqCcaNCkPQEaqz5Y6uzSD3j2ff4RfpSYyWDXOnNuvHaCwUgQTKWGnNL8NE_P0KbtzYbI0O9fB_Nbjf9uyaMWO-8LRI2M-8AIoMmKuXSsSNnFOFpWsmdFk5-SO9SPghYOJGCW5zDJoqsDAqRo?width=803&amp;amp;height=293&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;400&quot; /&gt; 
-In this case, it is mounted in&lt;em&gt; /var/www/html&lt;/em&gt;. This will not be your case. It will probably in something like &lt;em&gt;/media/pi/xxx&lt;/em&gt; . Whatever it is take note of it. Let us call this value as &lt;em&gt;initial_mount_point&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this case, it is mounted in&lt;em&gt; /var/www/html&lt;/em&gt;. This will not be your case. It will probably in something like &lt;em&gt;/media/pi/xxx&lt;/em&gt; . Whatever it is take note of it. Let us call this value as &lt;em&gt;initial_mount_point&lt;/em&gt;&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;bull;&amp;nbsp;&amp;nbsp; &lt;/em&gt;&amp;nbsp;Get the block id of the hard disk. Take note of the value starting from UUID&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://diqzcq-bn1305.files.1drv.com/y3mIoD4ZAkd1ENHivYdmvX_ryryQniJMAxYc3LnDlTSNxx24_1a3mlYCjgNkwqprpceU2c_nv4E3T3zTjNKGhKFjV3P0kBOGF1KO6xwShFF5C8BS76HQY2gS2U-QVeIIMCgMbLaiTPTRKFg-wUUfXoRKkGqb9QTHfIlyz4i0rfYOnU?width=1122&amp;amp;height=176&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://diqzcq-bn1305.files.1drv.com/y3mIoD4ZAkd1ENHivYdmvX_ryryQniJMAxYc3LnDlTSNxx24_1a3mlYCjgNkwqprpceU2c_nv4E3T3zTjNKGhKFjV3P0kBOGF1KO6xwShFF5C8BS76HQY2gS2U-QVeIIMCgMbLaiTPTRKFg-wUUfXoRKkGqb9QTHfIlyz4i0rfYOnU?width=1122&amp;amp;height=176&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&amp;bull;&amp;nbsp;&amp;nbsp; &amp;nbsp;Configure fstab so that the hard disk will mount to a certain point after reboot&lt;/p&gt;
 &lt;div class=&quot;example&quot;&gt;
 &lt;div class=&quot;highlight&quot;&gt;
@@ -70,7 +70,7 @@ In this case, it is mounted in&lt;em&gt; /var/www/html&lt;/em&gt;. This will not
 &lt;p&gt;&lt;em&gt;UUID=&amp;rdquo;xxxxxxxx&amp;rdquo; /var/www/html ntfs defaults 0 0&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Where &amp;ldquo;xxxxx&amp;rdquo; is the block id that you got from the previous step.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://eatsfg-bn1305.files.1drv.com/y3mwdrpm-UQqhfb4UZRNdU9Bhv1qLzTaLwX3nCtdKleUsVrUlySJlMyzLX-XmcV3ecbZxBWddIpwpkpyt_-aTi2Td0ArypfciVd6q2g_E0uXaYIq6tfOXlC-Mw9aw0CZuUyE4MQ_kPqa1RNq9NyUi6-hgp8Ua7hapCNOHV94aykU6c?width=804&amp;amp;height=236&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://eatsfg-bn1305.files.1drv.com/y3mwdrpm-UQqhfb4UZRNdU9Bhv1qLzTaLwX3nCtdKleUsVrUlySJlMyzLX-XmcV3ecbZxBWddIpwpkpyt_-aTi2Td0ArypfciVd6q2g_E0uXaYIq6tfOXlC-Mw9aw0CZuUyE4MQ_kPqa1RNq9NyUi6-hgp8Ua7hapCNOHV94aykU6c?width=804&amp;amp;height=236&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Type CTRL+O to save and CTRL+X to exit the editor.&lt;/p&gt;
 &lt;p&gt;&amp;bull;&amp;nbsp;&amp;nbsp; &amp;nbsp;Unmount the hard disk from initial mount point&lt;/p&gt;
 &lt;div class=&quot;example&quot;&gt;
@@ -201,7 +201,7 @@ Test the configuration by following command:&lt;/div&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://qeb2lg-bn1305.files.1drv.com/y3mw93vkAYR0aMSqIG_n7sac3wWiDqYh--BdMlbUTu0Q1ziC0Ct-iCNPjqyXjK1FHek7AXXUTB7q5KQn_v6Nu1O8z14rac-fiTSmrNLywwMZ5SAM90GfwL4S4zLrpSv3QZGDd3CchRGzg9-jvBfZHa6DInHOe53B56NzWdhBsDu-fs?width=1366&amp;amp;height=217&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;300&quot; /&gt;&lt;p&gt; There will be a lot of .torrent files. Mine has that .added name because all of them are already completed downloading.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://qeb2lg-bn1305.files.1drv.com/y3mw93vkAYR0aMSqIG_n7sac3wWiDqYh--BdMlbUTu0Q1ziC0Ct-iCNPjqyXjK1FHek7AXXUTB7q5KQn_v6Nu1O8z14rac-fiTSmrNLywwMZ5SAM90GfwL4S4zLrpSv3QZGDd3CchRGzg9-jvBfZHa6DInHOe53B56NzWdhBsDu-fs?width=1366&amp;amp;height=217&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;200&quot; /&gt;&lt;p&gt; There will be a lot of .torrent files. Mine has that .added name because all of them are already completed downloading.&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;4) Install and configure transmission to download the files using the torrent files already downloaded.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;example&quot;&gt;
@@ -263,7 +263,7 @@ sudo nano /etc/samba/smb.conf
 &lt;/div&gt;
 &lt;p&gt;This will open samba configuration file in nano. Go to the end of the file and type the following, and save and exit.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;[movies]&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&amp;nbsp; path = /var/www/html/&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&amp;nbsp; public = yes&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&amp;nbsp; read only = yes&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&amp;nbsp; guest ok = yes&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&amp;nbsp; browseable = yes&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://eate8a-bn1305.files.1drv.com/y3mWP1fHhF_DMuSkRDiGadvNBQhJLLhM6LIrQx09agCwNT8-ukSTCKVEYJ1iOITO6E1TSHao8PZUDCTuRxAi5I72bWW3R6JEaQgz2I1BSsFAE7I_YkK3ikQ-L3F5riWnpXO2WI1WCUvZeYXRvYE0bquyInqdi-fu3tLL6xWEDESZiU?width=895&amp;amp;height=578&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;40&quot; /&gt; &lt;p&gt;Enable and restart samba.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://eate8a-bn1305.files.1drv.com/y3mWP1fHhF_DMuSkRDiGadvNBQhJLLhM6LIrQx09agCwNT8-ukSTCKVEYJ1iOITO6E1TSHao8PZUDCTuRxAi5I72bWW3R6JEaQgz2I1BSsFAE7I_YkK3ikQ-L3F5riWnpXO2WI1WCUvZeYXRvYE0bquyInqdi-fu3tLL6xWEDESZiU?width=895&amp;amp;height=578&amp;amp;cropmode=none&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;400&quot; /&gt; &lt;p&gt;Enable and restart samba.&lt;/p&gt;&lt;/p&gt;
 &lt;div class=&quot;example&quot;&gt;
 &lt;div class=&quot;highlight&quot;&gt;
 &lt;pre&gt;sudo systemctl enable smbd

@@ -170,9 +170,9 @@ sudo systemctl start apache2
 </div>
 </div>
 <p><img src="https://earrcg-bn1305.files.1drv.com/y3m2x1N35pnRTTiHC2I8lH5evw3YFErqCcaNCkPQEaqz5Y6uzSD3j2ff4RfpSYyWDXOnNuvHaCwUgQTKWGnNL8NE_P0KbtzYbI0O9fB_Nbjf9uyaMWO-8LRI2M-8AIoMmKuXSsSNnFOFpWsmdFk5-SO9SPghYOJGCW5zDJoqsDAqRo?width=803&amp;height=293&amp;cropmode=none" alt="" width="800" height="400" /> 
-In this case, it is mounted in<em> /var/www/html</em>. This will not be your case. It will probably in something like <em>/media/pi/xxx</em> . Whatever it is take note of it. Let us call this value as <em>initial_mount_point</em></p>
+<p>In this case, it is mounted in<em> /var/www/html</em>. This will not be your case. It will probably in something like <em>/media/pi/xxx</em> . Whatever it is take note of it. Let us call this value as <em>initial_mount_point</em></p></p>
 <p><em>&bull;&nbsp;&nbsp; </em>&nbsp;Get the block id of the hard disk. Take note of the value starting from UUID</p>
-<p><img src="https://diqzcq-bn1305.files.1drv.com/y3mIoD4ZAkd1ENHivYdmvX_ryryQniJMAxYc3LnDlTSNxx24_1a3mlYCjgNkwqprpceU2c_nv4E3T3zTjNKGhKFjV3P0kBOGF1KO6xwShFF5C8BS76HQY2gS2U-QVeIIMCgMbLaiTPTRKFg-wUUfXoRKkGqb9QTHfIlyz4i0rfYOnU?width=1122&amp;height=176&amp;cropmode=none" alt="" width="800" height="300" /></p>
+<p><img src="https://diqzcq-bn1305.files.1drv.com/y3mIoD4ZAkd1ENHivYdmvX_ryryQniJMAxYc3LnDlTSNxx24_1a3mlYCjgNkwqprpceU2c_nv4E3T3zTjNKGhKFjV3P0kBOGF1KO6xwShFF5C8BS76HQY2gS2U-QVeIIMCgMbLaiTPTRKFg-wUUfXoRKkGqb9QTHfIlyz4i0rfYOnU?width=1122&amp;height=176&amp;cropmode=none" alt="" width="800" height="200" /></p>
 <p>&bull;&nbsp;&nbsp; &nbsp;Configure fstab so that the hard disk will mount to a certain point after reboot</p>
 <div class="example">
 <div class="highlight">
@@ -184,7 +184,7 @@ In this case, it is mounted in<em> /var/www/html</em>. This will not be your cas
 <p><em>UUID=&rdquo;xxxxxxxx&rdquo; /var/www/html ntfs defaults 0 0</em></p>
 <p>Where &ldquo;xxxxx&rdquo; is the block id that you got from the previous step.</p>
 <p>&nbsp;</p>
-<p><img src="https://eatsfg-bn1305.files.1drv.com/y3mwdrpm-UQqhfb4UZRNdU9Bhv1qLzTaLwX3nCtdKleUsVrUlySJlMyzLX-XmcV3ecbZxBWddIpwpkpyt_-aTi2Td0ArypfciVd6q2g_E0uXaYIq6tfOXlC-Mw9aw0CZuUyE4MQ_kPqa1RNq9NyUi6-hgp8Ua7hapCNOHV94aykU6c?width=804&amp;height=236&amp;cropmode=none" alt="" width="800" height="400" /></p>
+<p><img src="https://eatsfg-bn1305.files.1drv.com/y3mwdrpm-UQqhfb4UZRNdU9Bhv1qLzTaLwX3nCtdKleUsVrUlySJlMyzLX-XmcV3ecbZxBWddIpwpkpyt_-aTi2Td0ArypfciVd6q2g_E0uXaYIq6tfOXlC-Mw9aw0CZuUyE4MQ_kPqa1RNq9NyUi6-hgp8Ua7hapCNOHV94aykU6c?width=804&amp;height=236&amp;cropmode=none" alt="" width="800" height="300" /></p>
 <p>Type CTRL+O to save and CTRL+X to exit the editor.</p>
 <p>&bull;&nbsp;&nbsp; &nbsp;Unmount the hard disk from initial mount point</p>
 <div class="example">
@@ -315,7 +315,7 @@ Test the configuration by following command:</div>
 </pre>
 </div>
 </div>
-<p><img src="https://qeb2lg-bn1305.files.1drv.com/y3mw93vkAYR0aMSqIG_n7sac3wWiDqYh--BdMlbUTu0Q1ziC0Ct-iCNPjqyXjK1FHek7AXXUTB7q5KQn_v6Nu1O8z14rac-fiTSmrNLywwMZ5SAM90GfwL4S4zLrpSv3QZGDd3CchRGzg9-jvBfZHa6DInHOe53B56NzWdhBsDu-fs?width=1366&amp;height=217&amp;cropmode=none" alt="" width="800" height="300" /><p> There will be a lot of .torrent files. Mine has that .added name because all of them are already completed downloading.</p></p>
+<p><img src="https://qeb2lg-bn1305.files.1drv.com/y3mw93vkAYR0aMSqIG_n7sac3wWiDqYh--BdMlbUTu0Q1ziC0Ct-iCNPjqyXjK1FHek7AXXUTB7q5KQn_v6Nu1O8z14rac-fiTSmrNLywwMZ5SAM90GfwL4S4zLrpSv3QZGDd3CchRGzg9-jvBfZHa6DInHOe53B56NzWdhBsDu-fs?width=1366&amp;height=217&amp;cropmode=none" alt="" width="800" height="200" /><p> There will be a lot of .torrent files. Mine has that .added name because all of them are already completed downloading.</p></p>
 
 <p><strong>4) Install and configure transmission to download the files using the torrent files already downloaded.</strong></p>
 <div class="example">
@@ -377,7 +377,7 @@ sudo nano /etc/samba/smb.conf
 </div>
 <p>This will open samba configuration file in nano. Go to the end of the file and type the following, and save and exit.</p>
 <p><em>[movies]</em><br /><em>&nbsp; path = /var/www/html/</em><br /><em>&nbsp; public = yes</em><br /><em>&nbsp; read only = yes</em><br /><em>&nbsp; guest ok = yes</em><br /><em>&nbsp; browseable = yes</em></p>
-<p><img src="https://eate8a-bn1305.files.1drv.com/y3mWP1fHhF_DMuSkRDiGadvNBQhJLLhM6LIrQx09agCwNT8-ukSTCKVEYJ1iOITO6E1TSHao8PZUDCTuRxAi5I72bWW3R6JEaQgz2I1BSsFAE7I_YkK3ikQ-L3F5riWnpXO2WI1WCUvZeYXRvYE0bquyInqdi-fu3tLL6xWEDESZiU?width=895&amp;height=578&amp;cropmode=none" alt="" width="800" height="40" /> <p>Enable and restart samba.</p></p>
+<p><img src="https://eate8a-bn1305.files.1drv.com/y3mWP1fHhF_DMuSkRDiGadvNBQhJLLhM6LIrQx09agCwNT8-ukSTCKVEYJ1iOITO6E1TSHao8PZUDCTuRxAi5I72bWW3R6JEaQgz2I1BSsFAE7I_YkK3ikQ-L3F5riWnpXO2WI1WCUvZeYXRvYE0bquyInqdi-fu3tLL6xWEDESZiU?width=895&amp;height=578&amp;cropmode=none" alt="" width="800" height="400" /> <p>Enable and restart samba.</p></p>
 <div class="example">
 <div class="highlight">
 <pre>sudo systemctl enable smbd
